@@ -114,8 +114,8 @@
 				</div>
 			</div>
 			
-			<input class="btn btn-primary" type="submit" value="Submit">
-			<input class="btn btn-primary" type="reset" value="Reset">
+			<input class="btn btn-primary" type="submit" value="Simpan">
+			<input class="btn btn-primary" type="reset" value="Batal">
 		</form>
 	</div>
   </div>

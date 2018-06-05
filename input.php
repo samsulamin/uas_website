@@ -76,8 +76,8 @@
 					<input class="form-control" type="text" name="alamat" placeholder="alamat">
 				</div>
 			</div>			
-			<input class="btn btn-primary" type="submit" value="Submit">
-			<input class="btn btn-danger" type="reset" value="Reset">
+			<input class="btn btn-primary" type="submit" value="Simpan">
+			<input class="btn btn-danger" type="reset" value="Batal">
 		</form>
 	</div>
 	
