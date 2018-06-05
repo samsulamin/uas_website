@@ -38,9 +38,7 @@
 					
 					if($nim=='' || $nama=='' || $jenis_kelamin=='' || $jurusan=='' || $semester=='' || $alamat==''){
 					echo "<h5 class='text-secondary text-uppercase mb-0'>Gagal update, pastikan semua kolom di form telah terisi dengan Benar!</h5>".
-					'<a class="btn btn-warning btn-lg rounded-pill portfolio-modal-dismiss" href="form-edit.php">
-						<i class="fa fa-close"></i>
-						Kembali</a>';
+					'<a class="btn btn-warning btn-lg rounded-pill portfolio-modal-dismiss" href="form-edit.php">Kembali</a>';
 						return;
 					}
 					
