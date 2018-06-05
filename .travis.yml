@@ -8,14 +8,14 @@ env:
 
 script:
   # script buat folder baru
-  #- "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/praktek-4c'"
+  #- "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html'"
 
   # script upload file *.php
-  - "curl -T input.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
-  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
-  - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
-  - "curl -T simpandata.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
-  - "curl -T form-edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
-  - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
-  - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
-  - "curl -T readme.md -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4c/"
+  - "curl -T input.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T simpandata.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T form-edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
+  - "curl -T readme.md -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
