@@ -1,4 +1,4 @@
-<html !DOCTYPE>
+<!DOCTYPE html>
 <head>
 	<title> Data Mahasiswa </title>
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,13 +36,13 @@
 					if($koneksi->query($qry) === true) {
 						echo "<h5 class='text-secondary text-uppercase mb-0'>Data  Berhasil Dihapus</h5>";
 					}else {
-						echo "<h5 class='text-secondary text-uppercase mb-0'>Data Data Gagal Dihapus</h5>";
+						echo "<h5 class='text-secondary text-uppercase mb-0'> Data Gagal Dihapus</h5>";
 					}
 
 					$koneksi->close();
 					?>
 					<hr class="star-dark mb-5">
-					<a class="btn btn-primary" href="index.php">
+					<a class="btn btn-success" href="index.php">
 					<i class="fa fa-close"></i>
 					Lihat Data</a>
 				</div>
