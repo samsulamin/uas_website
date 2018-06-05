@@ -21,7 +21,7 @@
 				  <?php
 					$server = "localhost";
 					$username = "id4994154_samsulamin";
-					$password = "";
+					$password = "samsulamin13";
 					$db = "id4994154_data_mahasiswa";
 
 					$koneksi = new mysqli($server, $username, $password, $db);
