@@ -60,7 +60,7 @@
 					$koneksi->close();
 				?>
 				<hr class="star-dark mb-5">
-				<a class="btn btn-warning" href="input.php">
+				<a class="btn btn-success" href="input.php">
                 <i class="fa fa-close"></i>
                 kembali</a>
 				<a class="btn btn-primary" href="index.php">
